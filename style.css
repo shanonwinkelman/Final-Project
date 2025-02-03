@@ -387,5 +387,151 @@ h1 {
 /* Steps*/
 
 .steps__img--wrapper {
-    
+    display: flex;
+    position: relative;
 }
+
+.steps__img--wrapper,
+.steps__description {
+    width: 50%;
+}
+
+.steps__img {
+    z-index: 2;
+}
+
+.steps__grid {
+    position: absolute;
+    opacity: 0.15;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    fill: rgba(100,21,255);
+    z-index: 1;
+}
+
+.step {
+    display: flex;
+    color: #243e63;
+    margin: 32px;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #243e63;
+    line-height: 1;
+}
+
+.step__para {
+    color: #718096;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 12px;
+}
+
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
+}
+
+/* Values */
+
+.values__description {
+    padding: 32px 64px 32px 0;
+}
+
+.values__description,
+.values__img {
+    width: 50%;
+}
+
+.value__img--wrapper {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value__img--wrapper {
+    width: 36px;
+    height: 36px;
+}
+
+.value:nth-child(1)
+.value__img--wrapper  {
+    background-color: #9ae6b4;
+}
+
+.value:nth-child(2)
+.value__img--wrapper {
+    background-color: #feb2b2;
+}
+
+.value__img {
+    width: 20px;
+    height: 20px;
+}
+
+.values__list {
+    display: flex;
+}
+
+.value:nth-of-type(1) {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value:nth-child(2) {
+    margin-top: 32px;
+}
+
+.value__title {
+    display: flex;
+    align-items: center;
+}
+
+.value__name {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.value__para {
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
+}
+ #values .btn {
+    margin-top: 48px;
+ }
+
+ #values .row {
+    display: flex;
+ }
+
+ /* Pricing */
+
+ .
+
+ 
