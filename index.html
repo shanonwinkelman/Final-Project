@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+git add <div class=""></div><html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/80fb57a4d9.js" crossorigin="anonymous"></script>
+    <script src="./index.js" defer></script>
   </head>
   <body class>
     <section id="landing">
@@ -33,17 +34,22 @@
             <a href="#" class="nav__link login">Login</a>
             <a href="#" class="nav__link nav__link--primary">Sign Up</a>
           </div>
-          <button class="btn__menu" onclick="openMenu ()">
+          <button class="btn__menu" onclick="openMenu()">
             <i class="fas fa-bars"></i>
           </button>
         </div>
       </nav>
       <div class="modal">
-        <button>
-
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fa-solid fa-x"></i>
         </button>
         <div class="modal__links">
-
+            <a class="modal__link">About</a>
+            <a class="modal__link">Blog</a>
+            <a class="modal__link">Pricing</a>
+            <a class="modal__link">Contact Us</a>
+            <a class="modal__link">Login</a>
+            <a class="modal__link modal__link--primary">Sign Up</a>
         </div>
       </div>
       <header>
